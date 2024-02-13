@@ -8,7 +8,6 @@ import { TextDecrypt } from "../content/TextDecrypt";
 import './Works.css';
 
 // Import ../../assets/recentprojects/
-import Portfolio from '../../assets/recentprojects/react-portfolio.png';
 import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
 import Startup from '../../assets/recentprojects/startup.png';
@@ -27,15 +26,6 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     { 
       id: 1,
-      title: 'React Portfolio', 
-      description: `Designed and developed a ReactJS portfolio 
-      with fancy 3D animations using Three.js for 
-      the background element.`,
-      alter: 'React Portfolio',
-      image: `${Portfolio}`,
-    },
-    { 
-      id: 2,
       title: 'VeriTru Project', 
       description: `An advocacy project website built using
       MEAN stack with fact-checking tool to promote actions against
@@ -44,7 +34,7 @@ export const Works = () => {
       image: `${Veritru}`,
     },
     { 
-      id: 3,
+      id: 2,
       title: 'LoFo Project', 
       description: `Logistics and Forwarding website built using
       ReactJS to design and develop its front-end.`,
@@ -52,7 +42,7 @@ export const Works = () => {
       image: `${Lofo}`,
     },
     { 
-      id: 4,
+      id: 3,
       title: 'Startup Project', 
       description: `A website portfolio project for the Startup Dev Team
       built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
@@ -60,7 +50,7 @@ export const Works = () => {
       image: `${Startup}`,
     },
     { 
-      id: 5,
+      id: 4,
       title: 'LaCalle Cafe', 
       description: `A website project for the La Calle Cafe business
       built using Wordpress and PHP with integrated SEO tools to help
